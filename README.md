@@ -19,7 +19,7 @@ The hands on sessions are the following:
      ```
    * copy SP certificates from the files provided within this repo
      ```
-     cp /home/testuser/CORSO_IDEM/1_SESSIONE/shibboleth/sp-*.pem /etc/shibboleth
+     cp /home/testuser/SP_COURSE/01_SESSION/shibboleth/sp-*.pem /etc/shibboleth
      ```
    * edit the file ``/etc/shibboleth/shibboleth2.xml`` by specifying:
      * ``entityID="https://sp1.local/shibboleth"``
