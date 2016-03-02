@@ -1,6 +1,13 @@
-# SPCourse
+# Course on how to turn web-based services into Service Providers of Identity Federations
 
 Course on how to transform your application into a federated service.
+The program for this course covers the installation and configuration (basic and advanced) of the Shibboleth SP.
+The course will in clude hands-on exercises that allow participants to experience soon ease and speed of implementation of the SSO.
+
+**Course requirements**
+For the exercise you need to have your own computer and you should be able to run a Linux virtual machine on VirtualBox.
+Additional instructions that allow you to properly prepare your PC will be part of the course description on the course platform.
+
 This matherial includes a set of handson sessions referenced from the video lessons.
 For all the sessions in the specific folder, a script implementing the solution is present.
 
@@ -19,7 +26,7 @@ The hands on sessions are the following:
      ```
    * copy SP certificates from the files provided within this repo
      ```
-     cp /home/testuser/CORSO_IDEM/1_SESSIONE/shibboleth/sp-*.pem /etc/shibboleth
+     cp /home/testuser/SP_COURSE/01_SESSION/shibboleth/sp-*.pem /etc/shibboleth
      ```
    * edit the file ``/etc/shibboleth/shibboleth2.xml`` by specifying:
      * ``entityID="https://sp1.local/shibboleth"``

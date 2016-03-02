@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <!--
-    Pagina di esempio per il Corso di autenticazione federata
+    Example page for SPcourse
   -->
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -226,17 +226,17 @@
         </div>
         <div class="section_header section_header_green">
             <div id="reserved"></div>
-                sp2.local - Accesso all'area riservata
+                sp2.local - Access to reserved area
         </div>
 
         <div class="content_section_text">
             <p>
 			<br/>
-                L'area riservata del sito è riservata solo al personale
-				in possesso di credenziali valide rilasciate dall'organizzazione <br/>
+                The private section of this site is reserved only to users
+                                with valid credentials released by their home organization <br/>
             </p>
           <pre>
-Sito <?php echo $_SERVER['HTTP_HOST']; ?>
+Site <?php echo $_SERVER['HTTP_HOST']; ?>
 
 <a href="intranet/intranet.html">
 |-- Intranet home</a>
